@@ -1,0 +1,26 @@
+Windows download link:
+https://git-for-windows.github.io/
+
+Linux commands
+==============
+
+For Linux type the following commands from the shell
+
+$ sudo apt-get update
+$ sudo apt-get install git
+
+After Installing you can configure your user name and e-mail id.
+
+$ git config --global user.name "First Last"
+$ git config --global user.email "myemail@domain.com"
+
+
+Basic Terminology:Repo, remote and commit
+
+Commands:
+1) Create repository
+$ git init project
+$ cd project
+$ tree .git
+$ git init --bare barerepo
+
