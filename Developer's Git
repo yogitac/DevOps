@@ -24,3 +24,29 @@ $ cd project
 $ tree .git
 $ git init --bare barerepo
 
+Cloning a repo:
+git clone repo.git
+
+Entire history of the project
+git log --oneline --graph 
+
+Checking Status
+git status
+
+#stage files
+git add filename
+
+Commit
+git commit -m message
+or git commit -av # this shows the difference and lets u type message interactively
+
+Advance Commits
+git add --patch # hunks //part of fileto 
+git commit -v
+
+branching
+git checkout -b branchName
+
+
+
+git commit -av
