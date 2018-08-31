@@ -25,18 +25,23 @@ $ tree .git
 $ git init --bare barerepo
 
 Cloning a repo:
+===============
 git clone repo.git
 
 Entire history of the project
+=============================
 git log --oneline --graph 
 
 Checking Status
+===============
 git status
+git status -sb (summary branch)
 
 #stage files
 git add filename
 
 Commit
+======
 git commit -m message
 or git commit -av # this shows the difference and lets u type message interactively
 
@@ -50,3 +55,6 @@ git checkout -b branchName
 
 
 git commit -av
+
+git diff <file1> <file2> 
+The above command will show the patches of the files that are changed in '@@' blocks. These are known as hunks.
